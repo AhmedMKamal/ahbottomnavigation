@@ -24,7 +24,9 @@ Library to implement the Bottom Navigation component from Material Design guidel
 ### Gradle
 ```groovy
 dependencies {
-    compile 'com.aurelhubert:ahbottomnavigation:2.3.4'
+    // compile has ben deprecated.
+    // @see https://developer.android.com/studio/build/dependencies?utm_source=android-studio#dependency_configurations
+    implementation 'com.aurelhubert:ahbottomnavigation:2.3.4'
 }
 ```
 ### XML
